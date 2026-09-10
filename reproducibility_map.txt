@@ -1,39 +1,24 @@
-R7 reproducibility mapping
+R4 reproducibility map - candidate release v1.0.2
 
-Displayed manuscript figures
-----------------------------
-Figure 1 -> matlab/fig1_phase_diagram.m
-         -> figures/fig1_phase_diagram.{pdf,eps,png}
+FIGURES
+Fig. 1 -> matlab/fig1_phase_diagram.m -> figures/fig1_phase_diagram.*
+Fig. 2 -> matlab/fig2_qratio_windows.m -> figures/fig2_qratio_windows.*
+Fig. 3 -> matlab/fig3_n3_compact_window.m -> figures/fig3_n3_compact_window.*
+Fig. 4 -> matlab/fig4_shell_sandwich.m -> figures/fig4_shell_sandwich.*
+Fig. 5 -> matlab/fig6_grid_benchmark.m + matlab/grid_viability_left.m
+       -> figures/fig6_grid_benchmark.*
 
-Figure 2 -> matlab/fig2_qratio_windows.m
-         -> figures/fig2_qratio_windows.{pdf,eps,png}
+TABLE II
+matlab/verify_paper_values.m
 
-Figure 3 -> matlab/fig3_n3_compact_window.m
-         -> figures/fig3_n3_compact_window.{pdf,eps,png}
+TABLE III
+matlab/paper_params.m + matlab/verify_paper_values.m + relevant figure scripts
 
-Figure 4 -> matlab/fig4_shell_sandwich.m
-         -> figures/fig4_shell_sandwich.{pdf,eps,png}
+APPENDIX B DOUBLE WINDOW
+matlab/verify_paper_values.m
 
-Figure 5 -> matlab/fig6_grid_benchmark.m + matlab/grid_viability_left.m
-         -> figures/fig6_grid_benchmark.{pdf,eps,png}
+PRINCIPAL REPORTED VALUES
+matlab/verify_paper_values.m
 
-Archived analytic witness retained for provenance
--------------------------------------------------
-Former standalone IFT witness graphic
-         -> matlab/fig5_mainiv_witness.m
-         -> figures/fig5_mainiv_witness.{pdf,eps,png}
-In R7 this graphic is folded into the manuscript text and is not inserted
-as a numbered figure.
-
-Shared code and value checks
-----------------------------
-Shared parameters -> matlab/paper_params.m
-Figure setup      -> matlab/ieee_figure.m
-Figure export     -> matlab/export_ieee.m
-Value assertions  -> matlab/verify_paper_values.m
-All-figure driver -> matlab/run_all_figures.m
-
-Data statement
---------------
-All plots and numerical checks are deterministic. No external experimental
-data are required.
+GRID OUTPUTS
+matlab/fig6_grid_benchmark.m
