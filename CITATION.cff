@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the archived release and the accompanying manuscript."
 title: "Reproducibility Package for Authority Windows for Full Retention of Co-Moving Realizability Sets"
-version: 1.0.2
+version: 1.0.3
 date-released: 2026-09-10
 authors:
   - family-names: Zhang
