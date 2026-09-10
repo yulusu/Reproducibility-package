@@ -1,4 +1,4 @@
-R4 reproducibility map - candidate release v1.0.2
+R4 reproducibility map - release v1.0.3
 
 FIGURES
 Fig. 1 -> matlab/fig1_phase_diagram.m -> figures/fig1_phase_diagram.*
